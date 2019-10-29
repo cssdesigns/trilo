@@ -1,0 +1,134 @@
+html {scroll-behavior: smooth;}
+.container{width:100%;max-width:1360px; margin:0 auto;}
+.navigation {height:auto;padding:20px;}
+.brand {width: 200px;}
+.brand a img{width:100%;}
+.brand a,.brand a:visited {color: #ffffff;text-decoration: none;}
+.nav-container {display: flex;justify-content: space-between;}
+nav {align-self: center;}
+nav ul {list-style: none;margin: 0;padding: 0;}
+nav ul li {float: left;position: relative;}
+nav ul li a,nav ul li a:visited {display: block;padding: 0 20px;color: #6d7278;text-decoration: none;font-family: 'Poppins', sans-serif;font-size:14px;}
+nav ul li a:hover,nav ul li a:visited:hover {}
+nav ul li a:not(:only-child):after,nav ul li a:visited:not(:only-child):after {padding-left: 4px;content: ' ▾';}
+nav ul li ul li {min-width: 190px;}
+nav ul li ul li a {padding: 15px;line-height: 20px;}
+
+.nav-dropdown {position: absolute;display: none;z-index: 1;box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);}
+
+/* Mobile navigation */
+.nav-mobile {display: none;position: absolute;top: 0;right: 0;background: #262626;height: 70px;width: 70px;}
+
+
+
+#nav-toggle {position: absolute;left: 18px;top: 22px;cursor: pointer;padding: 10px 35px 16px 0px;}
+#nav-toggle span,#nav-toggle span:before,#nav-toggle span:after {cursor: pointer;border-radius: 1px;height: 5px;width: 35px;background: #ffffff;position: absolute;display: block;content: '';transition: all 300ms ease-in-out;}
+#nav-toggle span:before {top: -10px;}
+#nav-toggle span:after {bottom: -10px;}
+#nav-toggle.active span {background-color: transparent;}
+#nav-toggle.active span:before, #nav-toggle.active span:after {top: 0;}
+#nav-toggle.active span:before {transform: rotate(45deg);}
+#nav-toggle.active span:after {transform: rotate(-45deg);}
+
+
+h2{color:#404e74;line-height:40px; font-size:24px;font-weight:600;}
+p{color:#8d95a0;font-size:14px;line-height:24px;text-align: justify;padding:10px 0;}
+.readmore-btn {background:#0f3f78;color:#fff;padding: 12px 40px;text-decoration: none;font-size: 14px;margin: 6px 0;display: inline-block;border-radius: 24px;box-shadow: 2px 4px 8px rgba(15,63,120,0.5);transition:all 0.3s ease-in-out;}
+.readmore-btn:hover{background: linear-gradient(129deg,#ffb843,#f17b3d);transition:all 0.3s ease-in-out;}
+.master-row{display:flex;flex-wrap:wrap;align-items: center;margin-bottom: 10%;}
+.desc-sec, .img-sec{width:50%;padding:2%;box-sizing:border-box;}
+
+.services {margin-bottom: 10%;width:96%;margin:0 auto;}
+.services h2, .verticals h2 {text-align: center;width: 100%;}
+.services p {text-align: center;}
+.ser-master {display:flex;flex-wrap:wrap; justify-content:space-between;margin: 20px 0;}
+.ser-child{ width:23%;text-align: center;border-radius:4px;box-shadow:0px 0px 3px rgba(0,0,0,0.2);padding:2%;box-sizing:border-box;margin-bottom: 2%;display:flex;flex-wrap:wrap;}
+.ser-child p{padding:0;align-self:flex-end;width:100%;}
+.ser-child:hover {background: linear-gradient(129deg,#ffb843,#f17b3d);cursor:pointer;transition:all 0.3s ease-in;}
+.ser-icon{display:inline-block;align-self:flex-start;width: 100%;height: 100px;}
+.ser-icon.ux {background: url(../images/svg/uiux-regular.svg) center top no-repeat;}
+.ser-icon.sdev {background: url(../images/svg/software-dev.svg) center top no-repeat;}
+.ser-icon.wdev {background: url(../images/svg/web-dev.svg) center top no-repeat;}
+.ser-icon.cloud {background: url(../images/svg/cloud-based.svg) center top no-repeat;}
+.ser-icon.big {background: url(../images/svg/big-data.svg) center top no-repeat;}
+.ser-icon.anim {background: url(../images/svg/animation.svg) center top no-repeat;}
+.ser-icon.sec {background: url(../images/svg/security.svg) center top no-repeat;}
+.ser-icon.adv-tech {background: url(../images/svg/advanced-tech.svg) center top no-repeat;}
+
+.ser-child:hover p{color:#fff;}
+.ser-child:hover .ser-icon.ux {background: url(../images/svg/uiux-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.sdev {background: url(../images/svg/software-dev-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.wdev {background: url(../images/svg/web-dev-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.cloud {background: url(../images/svg/cloud-based-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.big {background: url(../images/svg/big-data-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.anim {background: url(../images/svg/animation-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.sec {background: url(../images/svg/security-selected.svg) center top no-repeat;}
+.ser-child:hover .ser-icon.adv-tech {background: url(../images/svg/advanced-tech-selected.svg) center top no-repeat;}
+
+.desc-sec ul {padding-left: 20px;}
+.desc-sec ul li {color: #8d95a0;font-size: 14px;line-height: 24px;text-align: justify;list-style-type: disc;padding-left: 10px;margin-bottom: 10px;}
+
+.part-master{display:flex;flex-wrap:wrap;}
+.part-child{width:48%;display: flex;align-items: center;margin-bottom:20px;}
+.part-child .icon {width: 50px;margin-right: 30px;}
+.part-child span {color: #8d95a0;font-size: 14px;line-height: 24px;}
+
+.verticals{width:96%; margin:0 auto;}
+.ver-master {display:flex;flex-wrap:wrap; justify-content:space-between;margin: 20px 0;}
+.var-icon{display:inline-block;align-self:flex-start;width: 100%;height: 100px;}
+.ver-child{ width:18%;text-align: center;border-radius:4px;box-shadow:0px 0px 3px rgba(0,0,0,0.2);padding:2%;box-sizing:border-box;margin-bottom: 2%;display:flex;flex-wrap:wrap;}
+.verticals p {text-align: center;}
+.ver-child p{padding:0;align-self:flex-end;width:100%;}
+
+.ver-icon{display:inline-block;align-self:flex-start;width: 100%;height: 100px;}
+.ver-icon.insure {background: url(../images/svg/health-tech-normal.svg) center top no-repeat;}
+.ver-icon.health {background: url(../images/svg/health-tech-normal.svg) center top no-repeat;}
+.ver-icon.commerce {background: url(../images/svg/web-dev.svg) center top no-repeat;}
+.ver-icon.media {background: url(../images/svg/media-normal.svg) center top no-repeat;}
+.ver-icon.chain {background: url(../images/svg/supply-chain-normal.svg) center top no-repeat;}
+
+.ver-child:hover p{color:#f17b3d;}
+.ver-child:hover .ver-icon.insure {background: url(../images/svg/insure-tech-selected.svg) center top no-repeat;}
+.ver-child:hover .ver-icon.health {background: url(../images/svg/health-tech-selected.svg) center top no-repeat;}
+.ver-child:hover .ver-icon.commerce {background: url(../images/svg/web-dev.svg) center top no-repeat;}
+.ver-child:hover .ver-icon.media {background: url(../images/svg/media-selected.svg) center top no-repeat;}
+.ver-child:hover .ver-icon.chain {background: url(../images/svg/supply-chain-selected.svg) center top no-repeat;}
+
+.copyrights {background: #072141;font-size: 14px;color:#fff;display: flex;width: 100%;padding: 10px;box-sizing: border-box;
+justify-content: center;}
+.copyrights span:nth-child(2) {line-height: 29px;margin-left: 10px;}
+#back-top {bottom:10px;position:fixed;right:10px;z-index:9}
+#back-top a {text-decoration:none;text-transform:uppercase;transition:all 1s ease 0;width:35px}
+#back-top span {background: url(../images/controls.png) no-repeat -2px -2px;border-radius: 5px;display: block;font-size: 0;height: 22px;transition: all .5s ease 0;width: 23px;
+box-shadow: 0 0 4px #ccc;}
+#back-top span:hover {background:url(../images/controls.png) no-repeat -2px -27px;}
+
+
+@media only screen and (max-width: 798px) {
+	.nav-mobile {display: block;}
+	nav {width: 100%;padding: 70px 0 15px;}
+	nav ul {display: none;}
+	nav ul li {float: none;}
+	nav ul li a {padding: 15px;line-height: 20px;}
+	nav ul li ul li a {padding-left: 30px;}
+	.nav-dropdown {position: static;}
+}
+
+@media screen and (min-width: 799px) {
+	.nav-list {display: block !important;}
+}
+
+@media only screen and (max-width:767px){
+	.container{width:100%;}
+	.navigation{padding:0;}
+	 nav {width: 100%;padding: 0;background: #262626;}
+	.brand {height: 70px;}
+	.brand a img {width: 100%;margin: 20px 12px 12px;}
+	.nav-container {display: inline-block;width: 100%;}
+	.master-row, .services, .verticals {width: 94%;margin: 0 auto;}
+	.desc-sec, .img-sec {width: 100%;padding: 50px 0;}
+	.desc-sec, .img-sec, .ser-child, .part-child, .ver-child {width: 100%;padding: 50px 0;}
+	.part-child{padding:0;}
+	.copyrights{flex-wrap:wrap;}
+	.c-logo{width: 100%;text-align: center;}
+}

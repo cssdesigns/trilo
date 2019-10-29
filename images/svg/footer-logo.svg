@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="16px" viewBox="0 0 104 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Final-Version-Copy-2" transform="translate(-686.000000, -5992.000000)" fill="#FFFFFF">
+            <g id="Group-23" transform="translate(683.000000, 5989.000000)">
+                <g id="Logo">
+                    <text id="Incrivelsoft" font-family="ProductSans-Bold, Product Sans" font-size="16" font-weight="bold">
+                        <tspan x="24" y="18">Incrivelsoft</tspan>
+                    </text>
+                    <g id="Group" transform="translate(12.571803, 12.000000) rotate(-46.000000) translate(-12.571803, -12.000000) translate(4.921803, 3.000000)">
+                        <path d="M7.42535995,0.0627511292 C11.4987967,0.0627511292 14.8009697,3.36274323 14.8009697,7.43348978 C14.8009697,9.50052441 13.9495431,11.3688291 12.5780481,12.7072644 C12.685568,11.7449908 12.3232445,10.8947759 11.6248481,10.6407483 C10.9302855,10.3881151 10.1110745,10.8007048 9.57478493,11.5966068 C9.16850628,10.6599239 8.36853033,10.0232088 7.44836081,10.0232088 C6.40555791,10.0232088 5.51712042,10.8409464 5.17907947,11.9864211 C4.64336707,10.958045 3.6880811,10.3814169 2.89795817,10.6688082 C2.30061218,10.8860807 1.94859489,11.5422961 1.9202684,12.33885 C0.757196947,11.0367141 0.0497501928,9.31766389 0.0497501928,7.43348978 C0.0497501928,3.36274323 3.35192316,0.0627511292 7.42535995,0.0627511292 Z" id="Combined-Shape-Copy"></path>
+                        <polygon id="Path-Copy" points="4.19699275 14.6938706 10.4311391 14.6938706 7.32037856 17.9426511"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
