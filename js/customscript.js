@@ -54,7 +54,7 @@ $(document).ready(function() {
     nav: false
     },
     1000: {
-    items: 5,
+    items: 4,
     nav: true,
     loop: false,
     margin: 20
@@ -62,3 +62,14 @@ $(document).ready(function() {
   }
   })
 });
+
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop() > 89) {
+          $('.stickyhead').addClass("sticky");
+      } else {
+          $('.stickyhead').removeClass("sticky");
+      }
+  });
+});
+
